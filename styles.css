@@ -26,3 +26,7 @@ main {
 .container ul.no-padding {
     padding-left: 0px;
 }
+
+.keep-together p {
+    margin-top: 0px;
+}
