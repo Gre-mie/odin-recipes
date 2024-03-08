@@ -13,3 +13,7 @@ main {
     border: 0.5rem solid rgb(41, 39, 39);
     background-color: black;
 }
+
+.container {
+    margin: 1rem;
+}
