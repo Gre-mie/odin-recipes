@@ -39,6 +39,10 @@ main {
     text-decoration: none;
 }
 
+a:link.bold.no-underline {
+    color: slategray;
+}
+
 a:visited.bold.no-underline {
     color: slategray;
 }
