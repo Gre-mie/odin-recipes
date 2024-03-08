@@ -6,6 +6,10 @@ body {
 #container {
     margin: 0px auto 0px auto;
     max-width: 1000px;
+    min-width: 1000px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
     color: white;
+    border: 0.5rem solid rgb(41, 39, 39);
     background-color: black;
 }
