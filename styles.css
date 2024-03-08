@@ -58,3 +58,7 @@ a {
 a:hover {
     color: rgb(135, 75, 163);
 }
+
+li p {
+    color: rgb(175, 175, 175);
+}
