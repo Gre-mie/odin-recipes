@@ -30,3 +30,15 @@ main {
 .keep-together p {
     margin-top: 0px;
 }
+
+.bold {
+    font-weight: 800;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+a:visited.bold.no-underline {
+    color: slategray;
+}
