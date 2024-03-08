@@ -17,3 +17,8 @@ main {
 .container {
     margin: 1rem;
 }
+
+.container ul {
+    padding-left: 1rem;
+    list-style: none;
+}
