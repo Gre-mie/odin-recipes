@@ -22,3 +22,7 @@ main {
     padding-left: 1rem;
     list-style: none;
 }
+
+.container ul.no-padding {
+    padding-left: 0px;
+}
