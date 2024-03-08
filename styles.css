@@ -46,3 +46,15 @@ a:link.bold.no-underline {
 a:visited.bold.no-underline {
     color: slategray;
 }
+
+a:hover.bold.no-underline {
+    color: slateblue;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(135, 75, 163);
+}
