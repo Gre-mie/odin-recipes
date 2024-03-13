@@ -1,13 +1,12 @@
 body {
-    margin: 0px;
+    margin: 0px auto;
     background-color: white;
 }
 
 main {
-    margin: 0px auto 0px auto;
-    max-width: 1000px;
-    min-width: 1000px;
+    margin: 0px auto;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 1000px;
     font-size: 16px;
     color: white;
     border: 0.5rem solid rgb(41, 39, 39);
@@ -62,3 +61,5 @@ a:hover {
 li p {
     color: rgb(175, 175, 175);
 }
+
+
