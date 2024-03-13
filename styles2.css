@@ -1,8 +1,12 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
 body {
     margin: 0px auto;
-    background-color: white;
+    background-color: rgb(95, 93, 99);
 }
-
 main {
     margin: 0px auto;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -11,10 +15,6 @@ main {
     color: white;
     border: 0.5rem solid rgb(41, 39, 39);
     background-color: black;
-}
-
-.container {
-    margin: 1rem;
 }
 
 .container ul {
@@ -26,18 +26,25 @@ main {
     padding-left: 0px;
 }
 
-.keep-together p {
-    margin-top: 0px;
-}
-
-.bold {
-    font-weight: 800;
-}
-
 .no-underline {
     text-decoration: none;
 }
 
+h1, h2, ul, ol {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+ol {
+    padding: 0px 2rem;
+}
+
+/* Setup above */
+
+/* Link styles */
 a:link.bold.no-underline {
     color: slategray;
 }
@@ -50,16 +57,39 @@ a:hover.bold.no-underline {
     color: slateblue;
 }
 
+a:hover {
+    color: rgb(135, 75, 163);
+}
+
 a {
     color: white;
 }
 
-a:hover {
-    color: rgb(135, 75, 163);
+/* styles */
+.container {
+    margin: 1rem;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.keep-together p {
+    margin-top: 0px;
 }
 
 li p {
     color: rgb(175, 175, 175);
 }
 
+.text-right {
+    text-align: right;
+    padding-right: 1em;
+}
+.text-right a {
+    font-size: 20px;
+}
 
+.bottom-image {
+    margin-bottom: -4px;
+}
